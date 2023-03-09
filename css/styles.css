@@ -1,4 +1,156 @@
 /* font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
 sans-serif; */
+/* =============COMPONENTS============ */
+body { 
+  font-family: 'Roboto', sans-serif;
+  color: #2E2F42;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.btns {
+  cursor: pointer;
+}
+.btns:hover,
+.btns:focus {
+  background: #404BBF;
+
+}
+.link:hover,
+.link:focus {
+  color: #404BBF;
+}
+/* =============COMPONENTS============ */
+
+/* =============HEADER============ */
+.logo {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.logo-web {
+  color: #4D5AE5;
+}
+.main-nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+}
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  color: #434455;
+}
+
+
+/* =============/HEADER============ */
+
+/* =============HERO============ */
+.hero {
+  width: 1440px;
+  height: 600px;
+  background: #2E2F42;
+}
+.main-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+.main-btn {
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  color: #FFFFFF;
+}
+
+/* =============/HERO============ */
+
+/* =============FEATURES============ */
+.menu-items-features {
+  width: 264px;
+  height: 104px;
+}
+.menu-items-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  }
+.menu-items-text {
+  font-size: 16px;
+  line-height: 1.33;
+}
+
+/* =============/FEATURES============ */
+
+/* =============WHAT ARE WE DOING============ */
+.projects-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+/* =============/WHAT ARE WE DOING============ */
+
+/* =============OUR TEAM============ */
+.our-team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.teammate-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.teammate-profession {
+  font-size: 16px;
+  line-height: 1.33;
+}
+/* =============/OUR TEAM============ */
+
+/* =============FOOTER============ */
+.footer-text {
+  font-size: 16px;
+  line-height: 1.33;
+}
+/* =============/FOOTER============ */
+
+
+/* +++++++++++++PORTFOLIO+++++++++++++ */
+
+
+/* =============BUTTONS============ */
+.menu-projects-btn {
+  background: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  color: #FFFFFF;
+}
+/* =============/BUTTONS============ */
+
+/* =============PROJECT LIST============ */
+.our-projects-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.our-projects-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+}
+/* =============/PROJECT LIST============ */
