@@ -34,20 +34,30 @@ body {
   font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* ^^^^^^???^^^^^ */
+  color: #4d5ae5;
 }
-.logo-web {
-  color: #4D5AE5;
+.logo-studio {
+  color: #2e2f42;
 }
 .main-nav-list {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.contact-us {
+  font-style: normal;
 }
 .contacts {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -63,8 +73,10 @@ body {
 .main-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
+  text-align: center;
 }
 .main-btn {
   background: #4D5AE5;
@@ -75,7 +87,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #FFFFFF;
 }
 
@@ -90,10 +103,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   }
 .menu-items-text {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* =============/FEATURES============ */
@@ -103,6 +119,10 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em
+  text-transform: capitalize; 
+  /* ^^^^^???^^^^ */
 }
 
 /* =============/WHAT ARE WE DOING============ */
@@ -117,19 +137,28 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .teammate-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .teammate-profession {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* =============/OUR TEAM============ */
 
 /* =============FOOTER============ */
+.end-page {
+  background-color: #2e2f42;
+}
 .footer-text {
   font-size: 16px;
   line-height: 1.33;
@@ -148,19 +177,27 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #4D5AE5;;
 }
 /* =============/BUTTONS============ */
 
 /* =============PROJECT LIST============ */
+.logo-studio-end-page {
+  color: #f4f4fd;
+}
 .our-projects-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .our-projects-text {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* =============/PROJECT LIST============ */
