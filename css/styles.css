@@ -2,8 +2,11 @@
 sans-serif; */
 /* =============COMPONENTS============ */
 body { 
+  background: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   color: #2E2F42;
+  width: 1440px;
+  height: 2590px;
 }
 .list {
   list-style: none;
@@ -69,6 +72,7 @@ body {
   border-radius: 4px;
   width: 169px;
   height: 56px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.33;
@@ -104,6 +108,11 @@ body {
 /* =============/WHAT ARE WE DOING============ */
 
 /* =============OUR TEAM============ */
+.team {
+  width: 1440px;
+  height: 732px;
+  background: #F4F4FD;
+  }
 .our-team-header {
   font-weight: 700;
   font-size: 36px;
@@ -136,6 +145,7 @@ body {
   background: #F4F4FD;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.33;
@@ -150,7 +160,6 @@ body {
   line-height: 1.2;
 }
 .our-projects-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.33;
 }
