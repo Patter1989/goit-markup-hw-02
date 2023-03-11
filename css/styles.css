@@ -117,14 +117,16 @@ body {
 
 /* =============WHAT ARE WE DOING============ */
 .projects-header {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em
-  text-transform: capitalize; 
+  text-transform: capitalize;
   /* ^^^^^???^^^^ */
 }
+
 
 /* =============/WHAT ARE WE DOING============ */
 
@@ -164,7 +166,9 @@ body {
 }
 .footer-text {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
 }
 /* =============/FOOTER============ */
 
