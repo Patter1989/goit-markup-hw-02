@@ -46,7 +46,7 @@ body {
 .main-nav-list {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -122,10 +122,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* ^^^^^???^^^^ */
-}
+  }
 
 
 /* =============/WHAT ARE WE DOING============ */
