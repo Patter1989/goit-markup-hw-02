@@ -47,7 +47,10 @@ body {
 .logo-studio {
   color: var(--navy-blue);
 }
-
+.main-nav-list:hover,
+.main-nav-list:focus {
+  color: var(--ocean);
+}
 .contact-us {
   font-style: normal;
 }
@@ -66,7 +69,7 @@ body {
 .hero {
   width: 1440px;
   height: 600px;
-  background: var(--navy-blue);
+  background-color: var(--navy-blue);
 }
 .main-header {
   font-weight: 700;
@@ -91,7 +94,7 @@ body {
 }
 .main-btn:hover,
 .main-btn:focus {
-  background: var(--ocean);
+  background-color: var(--ocean);
   color: #FFFFFF;
 }
 
